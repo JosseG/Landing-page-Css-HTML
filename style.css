@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Spartan', sans-serif;
+    Font-size: 15px
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 150px 4%;
+}
+.container_introduction {
+    max-width: 600px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    padding: 10px 20px;
+}
+.container_introduction>h1 {
+    font-size: 60px;
+}
+.container_introduction>p {
+    padding-top: 15px;
+    line-height: 25px;
+}
+.container_rating {
+    width: 750px;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+[class^="container_rating--"]{
+
+    width: 100%;
+    display: flex;
+ 
+    
+}
+
+
+/*Añadido estilos a Reviews*/
+.container_rating--reviews {
+    margin: 20px;
+    
+    
+    
+}
+.container_stars{
+    background-color:hsl(300, 24%, 96%);
+    padding: 20px;
+    border-radius: 20px;
+}
+.rating_letter--reviews{
+    display: inline;
+}
+
+/*Añadido estilos a Report Guru*/
+.container_rating--guru {
+    margin: 20px;
+    justify-content: center;
+    
+    
+}
+.rating_letter--guru {
+    display: inline;
+}
+/*Añadido estilos a bestTech*/
+.container_rating--best {
+    margin: 20px;
+    justify-content: flex-end;
+}
+.rating_letter--best {
+    display: inline;
+}
+[class^="rating_letter--"]>h1{
+    font-size: 20px;
+    display: inline;
+    padding: 40px;
+    color: hsl(300, 43%, 22%);
+    
+}
+.container_comments {
+    display: flex;
+    height: 570px;
+    width: 1650px;
+    margin: 0 1%;
+    padding: 100px 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+}
+
+[class^="container_comments--"]{
+    background: hsl(300, 43%, 22%);
+    border-radius: 15px;
+    width: 370px;
+    margin: 30px;
+    padding: 20px ;
+    text-align: center;
+    
+}
+.container_comments--colton {
+    align-self: flex-start;
+}
+.container_comments--irene{
+    align-self: center;
+}
+.container_comments--anne {
+    align-self: flex-end;
+    
+}
+[class^="img--"]{
+    border-radius: 50%;
+    display: inline;
+}
+
+[class^="container_title--"]{
+    display:flex;
+    align-items: center;
+    padding: 10px;
+}
+[class^="title--"]{
+   padding: 20px;
+}
+[class^="title--"]>h3{
+    color: white;
+}
+[class^="title--"]>span{
+    color: hsl(333, 80%, 67%);
+}
+.parrafo{
+    color: white;
+    padding-bottom: 10px;
+    line-height: 23px;
+}
+.container_introduction>h1 {
+    color: hsl(300, 43%, 22%);
+}
+.container_introduction>p {
+    color: hsl(303, 10%, 53%);
+}
